@@ -2,13 +2,16 @@ programa
 {
 	
 	funcao inicio()
-	{    cadeia nome
+	{
+             cadeia nome, genero
 	     inteiro idade
 		escreva("what your name? ")
 		leia(nome)
 		escreva("how old are you? ")
 		leia(idade)
-		escreva("Boa tarde ",nome,", você tem ",idade," anos.")
+                escreva("qual o seu genero? ")
+                leia(genero)
+		escreva("Boa tarde ",nome,", você tem ",idade," anos e voce é ",genero)
 		
 	}
 }
